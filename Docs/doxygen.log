@@ -1,0 +1,8 @@
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/inc/buffer/ring_buffer.h:484: warning: argument 'is_empty' of command @param is not found in the argument list of RingBuffer_enFreeCount(RingBuffer_t *ring_buffer, RingBuffer_Counter_t *free_count)
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/inc/buffer/ring_buffer.h:498: warning: The following parameter of RingBuffer_enFreeCount(RingBuffer_t *ring_buffer, RingBuffer_Counter_t *free_count) is not documented:
+  parameter 'free_count'
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/inc/buffer/ring_buffer.h:233: warning: explicit link request to 'RING_BUFFER_EMPTY' could not be resolved
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/inc/buffer/ring_buffer.h:469: warning: argument 'is_empty' of command @param is not found in the argument list of RingBuffer_enItemCount(RingBuffer_t *ring_buffer, RingBuffer_Counter_t *item_count)
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/inc/buffer/ring_buffer.h:481: warning: The following parameter of RingBuffer_enItemCount(RingBuffer_t *ring_buffer, RingBuffer_Counter_t *item_count) is not documented:
+  parameter 'item_count'
+F:/Projects/C_Cpp/C/Data-Structures/RingBuffer/src/buffer/ring_buffer.c:394: warning: Invalid list item found
