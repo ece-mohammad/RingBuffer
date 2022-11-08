@@ -13,8 +13,8 @@
 
 #include "main.h"
 
-#include "utils.h"
-#include "ring_buffer.h"
+#include "utils/utils.h"
+#include "ring_buffer/ring_buffer.h"
 
 
 /* ---------------------------------------------------------------------------

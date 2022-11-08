@@ -25,7 +25,7 @@ When the previous conditions are met, ring buffer will operate correctly even wh
 /******************************************
  * file: main.c
  *****************************************/
-#include "ring_buffer.h"
+#include "ring_buffer/ring_buffer.h"
 
 #define RING_BUFFER_DATA_SIZE	256
 

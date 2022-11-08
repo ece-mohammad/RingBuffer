@@ -2,8 +2,8 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
-#include "ring_buffer.h"
-#include "utils.h"
+#include "ring_buffer/ring_buffer.h"
+#include "utils/utils.h"
 #include "unity.h"
 #include "test_ring_buffer.h"
 

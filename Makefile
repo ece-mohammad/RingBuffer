@@ -16,13 +16,13 @@
 # 	
 # 	build variables:
 # 		build:
-# 			Debug		: debug build, enables -DDEBUG pre-processor witch and adds debugging symbols to executable, optimization flags: -Og
+# 			Debug		: debug build, enables -DDEBUG pre-processor witch and adds debugging symbols to executable, optimization flags: -Og (default)
 # 			Release		: release build, with optimization flag -O2
 # 			RelMinSize	: release build with minimum size, optimizatin flags: -O3
 # 		
 # 		platform:
 # 			STM32		: build ring buffer for STM32F10xx, using arm-none-eabi-gcc (must be visible in path or supplied to make as GCC_PATH)
-# 			Win			: build ring buffer for WIn, using gcc (muts be visible in bath)
+# 			Win			: build ring buffer for WIn, using gcc. GCC must be visible in bath (default)
 # 
 # ------------------------------------------------
 
@@ -196,8 +196,7 @@ AS_INCLUDES =
 
 # C includes
 MODULE_INCLUDES = \
-Modules/ring_buffer \
-Modules/utils \
+Modules \
 
 
 # platform specific includes
